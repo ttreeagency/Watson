@@ -1,0 +1,19 @@
+{
+    "name": "ttree/watson",
+    "description": "IBM Watson API client for your PHP project",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Watson\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.Watson"
+        }
+    }
+}

@@ -31,6 +31,6 @@ class Client extends AbstractClient
                 'text' => $text
             ])
         ]);
-        return $response->getBody();
+        return (string)$response->getBody();
     }
 }
